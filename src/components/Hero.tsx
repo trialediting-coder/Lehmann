@@ -8,13 +8,6 @@ interface HeroProps {
 }
 
 export const Hero: React.FC<HeroProps> = () => {
-  const filterPills = [
-    { label: 'Services' },
-    { label: 'Technologies' },
-    { label: 'Equipment' },
-    { label: 'Painless' },
-  ];
-
   return (
     <section
       id="hero"
@@ -69,18 +62,6 @@ export const Hero: React.FC<HeroProps> = () => {
               Welcome To <br />
               <span className="text-[#C59B56]">Lehmann</span> Family Dental
             </h1>
-
-            {/* Filter Pills (Mockup presentation) */}
-            <div className="flex flex-wrap items-center gap-2 sm:gap-2.5 pt-1">
-              {filterPills.map((pill) => (
-                <span
-                  key={pill.label}
-                  className="px-3.5 sm:px-4 py-1.5 rounded-full border border-white/60 bg-black/15 backdrop-blur-xs text-white text-xs sm:text-sm font-medium select-none"
-                >
-                  {pill.label}
-                </span>
-              ))}
-            </div>
 
             {/* Descriptive Subtext */}
             <p className="text-sm sm:text-base md:text-lg text-white/95 leading-relaxed max-w-2xl font-normal drop-shadow-xs">

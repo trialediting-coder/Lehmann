@@ -86,7 +86,7 @@ export const AboutSection: React.FC<AboutSectionProps> = () => {
         </div>
 
         {/* Guiding Principles & Core Values 2-Column Section */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center pt-8 border-t border-stone-200">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-24 xl:gap-28 items-center pt-14 border-t border-stone-200">
           {/* Left Column: 5 Core Values Grid */}
           <div className="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-5">
             {CORE_VALUES.map((val, idx) => {
@@ -119,7 +119,7 @@ export const AboutSection: React.FC<AboutSectionProps> = () => {
           </div>
 
           {/* Right Column: Narrative Framing */}
-          <div className="lg:col-span-5 space-y-6">
+          <div className="lg:col-span-5 space-y-6 lg:pl-6 xl:pl-10">
             <h3 className="text-3xl sm:text-4xl font-extrabold text-zinc-950 tracking-tight leading-tight">
               Our Core Guiding Values
             </h3>
