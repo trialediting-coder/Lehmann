@@ -1,0 +1,7 @@
+{
+  "name": "Lehmann Family Dental",
+  "description": "Modern dental care in Clear Lake, Iowa led by Dr. Grant Lehmann, DDS. Redesigned with streamlined appointment scheduling, service exploration, and patient-first comfort.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

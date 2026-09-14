@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --color-brand-gold: #c59b56;
+  --color-brand-gold-hover: #b28643;
+  --color-brand-gold-light: #f6efe3;
+  --color-brand-gold-subtle: #faf6ef;
+  --color-brand-dark: #18181b;
+  --color-brand-charcoal: #27272a;
+  --color-brand-stone: #f4f0e8;
+  --color-brand-cream: #fbf9f5;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  button, input, select, textarea, h1, h2, h3, h4, h5, h6, p, span, a {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f4f0e8;
+}
+::-webkit-scrollbar-thumb {
+  background: #cca96e;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b28643;
+}
+
